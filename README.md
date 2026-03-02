@@ -9,6 +9,7 @@ The E-Permit Safety Management System is a React-based web application designed 
 It helps organizations improve workplace safety, maintain regulatory compliance, and monitor permit workflows in real time.
 
 🚀 Core Features
+
 🔐 Role-Based Access Control
 
 The system supports four user roles:
