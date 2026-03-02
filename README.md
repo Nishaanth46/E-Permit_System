@@ -102,44 +102,17 @@ Node.js 14+
 npm or yarn
 
 Steps
-# Clone the repository
+1.Clone the repository
 git clone https://github.com/your-org/e-permit-system.git
 
-# Navigate into the project folder
+2.Navigate into the project folder
 cd e-permit-system
 
-# Install dependencies
+3.Install dependencies
 npm install
 
-# Start development server
+4.Start development server
 npm start
-
-Open:
-
-http://localhost:3000
-📁 Project Structure
-src/
-│
-├── components/
-│   ├── auth/
-│   ├── common/
-│   ├── dashboard/
-│   ├── permits/
-│   └── workflow/
-│
-├── context/
-├── pages/
-├── services/
-├── styles/
-└── utils/
-🔑 Demo Credentials
-Role	Username	Password
-Requester	requester	password
-Safety Officer	safety	password
-Approver	approver	password
-Admin	admin	password
-
-⚠️ These credentials are for demonstration purposes only.
 
 🔐 Security Highlights
 
