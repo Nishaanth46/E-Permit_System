@@ -1,70 +1,178 @@
-# Getting Started with Create React App
+🛡️ E-Permit Safety Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern digital platform for managing workplace safety permits and ensuring regulatory compliance across seven critical work areas.
 
-## Available Scripts
+📌 Overview
 
-In the project directory, you can run:
+The E-Permit Safety Management System is a React-based web application designed to digitize and streamline the entire safety permit lifecycle — from request initiation to final closure.
 
-### `npm start`
+It helps organizations improve workplace safety, maintain regulatory compliance, and monitor permit workflows in real time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🚀 Core Features
+🔐 Role-Based Access Control
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The system supports four user roles:
 
-### `npm test`
+Requester – Submit and track permit requests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Safety Officer – Review safety checklists and conduct inspections
 
-### `npm run build`
+Approver – Management-level approval authority
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Admin – System configuration and monitoring
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔄 Complete Permit Workflow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Request Initiation – Submit detailed work request
 
-### `npm run eject`
+Safety Checklist – Area-specific safety validation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Inspection – Safety officer verification
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Approval – Management authorization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Issue & Notify – PDF generation and notifications
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Work Execution – Active monitoring
 
-## Learn More
+Closure – Completion confirmation and restoration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🏗️ Supported Work Areas (7 Categories)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Confined Space (CS) – Isolation & atmospheric testing
 
-### Code Splitting
+Hot Work (HW) – Fire safety & spark control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Electrical Work (EW) – Lockout/Tagout & PPE compliance
 
-### Analyzing the Bundle Size
+Excavation (EXCA) – Utility detection & trench safety
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Working at Heights (WAH) – Fall protection systems
 
-### Making a Progressive Web App
+Lifting Operations (LO) – Load safety & equipment checks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Maintenance (MAINT) – Equipment isolation & safety procedures
 
-### Advanced Configuration
+📊 Dashboard & Monitoring
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Real-time permit tracking
 
-### Deployment
+Risk and compliance analytics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Performance reporting
 
-### `npm run build` fails to minify
+User activity monitoring
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+System status overview
+
+📄 Document & Record Management
+
+Automatic PDF permit generation
+
+Digital approvals and signatures
+
+Email alerts & notifications
+
+7-year document retention
+
+Complete audit trail
+
+🛠️ Technology Stack
+
+Frontend: React 18, React Router DOM
+
+HTTP Client: Axios
+
+Styling: CSS-in-JS
+
+Icons: React Icons
+
+Notifications: React Toastify
+
+PDF Generation: jsPDF
+
+Testing: Jest & React Testing Library
+
+⚙️ Installation & Setup
+Prerequisites
+
+Node.js 14+
+
+npm or yarn
+
+Steps
+# Clone the repository
+git clone https://github.com/your-org/e-permit-system.git
+
+# Navigate into the project folder
+cd e-permit-system
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+Open:
+
+http://localhost:3000
+📁 Project Structure
+src/
+│
+├── components/
+│   ├── auth/
+│   ├── common/
+│   ├── dashboard/
+│   ├── permits/
+│   └── workflow/
+│
+├── context/
+├── pages/
+├── services/
+├── styles/
+└── utils/
+🔑 Demo Credentials
+Role	Username	Password
+Requester	requester	password
+Safety Officer	safety	password
+Approver	approver	password
+Admin	admin	password
+
+⚠️ These credentials are for demonstration purposes only.
+
+🔐 Security Highlights
+
+Role-based authorization
+
+Activity audit logs
+
+Secure session management
+
+Digital signature support
+
+Document access control
+
+📈 Reporting & Analytics
+
+Permit lifecycle metrics
+
+Risk assessment trends
+
+Compliance monitoring
+
+Performance dashboards
+
+Custom reports
+
+📄 License
+
+This project is licensed under the MIT License.
+
+🤝 Support
+
+For bug reports, feature requests, or improvements, please open an issue in this repository.
+
+✨ Version
+
+E-Permit Safety Management System v2.0
+Enhancing Workplace Safety Through Digital Transformation.
